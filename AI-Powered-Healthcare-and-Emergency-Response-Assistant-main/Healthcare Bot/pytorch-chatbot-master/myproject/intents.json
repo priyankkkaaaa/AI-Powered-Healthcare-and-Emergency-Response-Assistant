@@ -1,0 +1,367 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "What’s up?",
+        "Yo",
+        "How’s it going?",
+        "Is anyone there?",
+        "Hello there",
+        "Howdy",
+        "What's popping?",
+        "Greetings!"
+      ],
+      "responses": [
+        "Hey! What can I do for you today? 😊",
+        "Yo! Welcome to our med chat. How can I help?",
+        "Hiya! Got any health questions? I gotchu!",
+        "Howdy! Here to help with your health questions.",
+        "What’s popping? Let’s chat about your health!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See ya",
+        "Later",
+        "Peace out",
+        "Gotta go",
+        "I’m out",
+        "Catch you later",
+        "Adios",
+        "Take care",
+        "Talk soon"
+      ],
+      "responses": [
+        "Catch ya later! Stay safe! ✌️",
+        "See ya! Don’t hesitate to hit me up again!",
+        "Later! Wishing you good vibes and health!",
+        "Adios! Come back anytime you need help.",
+        "Take care! I’m just a message away!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thx",
+        "Appreciate it",
+        "You're the best",
+        "Ty!",
+        "Much appreciated",
+        "Grateful for your help",
+        "Thanks a ton!",
+        "Cheers!",
+        "You rock!"
+      ],
+      "responses": [
+        "No prob! I’m here for it! 🙌",
+        "Anytime! Hit me up if you need more info!",
+        "Happy to help! You rock! ⭐️",
+        "Glad I could help! Don’t hesitate to reach out again!",
+        "Always here for you! Let me know if you need anything else!"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "Got a headache",
+        "Fever vibes, what’s that?",
+        "Feeling off",
+        "What’s up with my chest pain?",
+        "I’m dizzy, help!",
+        "Got a sore throat",
+        "Coughing a lot",
+        "Nausea and I feel bad",
+        "What does it mean if I’m tired all the time?",
+        "Why am I feeling anxious?"
+      ],
+      "responses": [
+        "For headaches, sip some water and chill in a dark room. If it sticks around, see a doc.",
+        "Fever means your body’s fighting something. Keep an eye on it, and hit up a doc if it’s high.",
+        "Feeling off? Get some rest and stay hydrated. If it gets worse, call a pro.",
+        "Chest pain can be serious! Don’t wait—call for help ASAP if that happens.",
+        "Dizziness? Might be dehydration or low blood sugar. Drink water and eat something, but if it keeps going, see a doc.",
+        "Sore throat? Try warm salt water gargles. If it gets worse, consult a healthcare provider.",
+        "Coughing a lot? Stay hydrated and consider honey in tea. If it continues, see a doc.",
+        "Nausea? Take small sips of ginger ale or tea. If it lasts, check with a healthcare provider.",
+        "Feeling tired all the time? It could be stress or lack of sleep. Consider talking to a doc if it persists.",
+        "Anxiety can be tough. Deep breathing and self-care can help, but a pro might have more tools for you."
+      ]
+    },
+    {
+      "tag": "appointments",
+      "patterns": [
+        "How to book an appointment?",
+        "Need to see a doc",
+        "First time, what do I bring?",
+        "How long is a visit?",
+        "Can I cancel?",
+        "What’s the process for getting an appointment?",
+        "Do I need to prepare anything for my appointment?",
+        "How do I check if my appointment is confirmed?",
+        "Can I reschedule my appointment?",
+        "Is there a waiting list?"
+      ],
+      "responses": [
+        "To book, just tell me your preferred time, and I’ll help set it up!",
+        "You can call or hit our website to schedule. What date you thinking?",
+        "Bring your ID and any medical stuff. Super easy!",
+        "Usually, visits are around 30-60 mins, depending on the reason.",
+        "To cancel, just reach out at least 24 hours ahead. Easy peasy!",
+        "For booking, just give your preferred date and I’ll assist you!",
+        "For first-time visits, bring your insurance info and any medical records you have.",
+        "You can check your appointment status by calling or through our website.",
+        "Rescheduling is simple! Just let us know your new preferred date.",
+        "If you’re on a waiting list, we’ll notify you as soon as there’s an opening!"
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "Side effects of aspirin?",
+        "Can I mix meds?",
+        "What’s the deal with my prescriptions?",
+        "Any alternatives?",
+        "How to store my meds?",
+        "What if I miss a dose?",
+        "How do I know if my meds are working?",
+        "Can I take meds with food?",
+        "What to do if I have a bad reaction?",
+        "How often should I take my medication?"
+      ],
+      "responses": [
+        "Aspirin can upset your stomach. Always check with your doc first!",
+        "Mixing meds? Always ask your doc. Better safe than sorry!",
+        "Stick to your prescription rules. If you have questions, just ask!",
+        "Talk to your doc about alternatives if you’re not vibing with your meds.",
+        "Store your meds in a cool, dry spot. Check for any specific rules on the label.",
+        "If you miss a dose, take it as soon as you remember, but skip it if it’s almost time for the next one.",
+        "You should notice improvements based on your prescription. If unsure, check with your doc!",
+        "Some meds are better with food, while others are not. Check with your doc for specifics.",
+        "If you have a bad reaction, stop taking it and contact your healthcare provider immediately.",
+        "Follow the prescribed schedule for taking your meds for the best results!"
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "Health hacks?",
+        "How to boost my immune system?",
+        "What should I munch on?",
+        "How much water daily?",
+        "Best workouts for me?",
+        "How can I improve my sleep?",
+        "What’s a good breakfast for energy?",
+        "How to manage stress?",
+        "Best ways to stay active?",
+        "Any tips for staying motivated to exercise?"
+      ],
+      "responses": [
+        "Eat your fruits and veggies, get your zzz’s, and stay active. Simple! 🌱",
+        "Drink water, eat right, and move your body! Immune boosters are all about balance.",
+        "Go for colorful foods—berries, greens, nuts. Hydration is key too!",
+        "Aim for 8 glasses a day, but listen to your body—especially if you’re active!",
+        "Mix cardio, strength, and flexibility workouts. Talk to your doc for a plan that suits you.",
+        "To improve sleep, create a relaxing bedtime routine and limit screen time before bed.",
+        "For energy, think whole grains, protein, and healthy fats for breakfast. Eggs or oatmeal are great!",
+        "Managing stress? Try mindfulness, deep breathing, or even a chill walk outside.",
+        "Stay active by finding activities you love! Dance, hike, or play a sport with friends.",
+        "Set small goals and celebrate achievements to stay motivated. You got this!"
+      ]
+    },
+    {
+      "tag": "dietary_restrictions",
+      "patterns": [
+        "Gluten-free eats?",
+        "Diabetes diet tips?",
+        "Cholesterol-friendly foods?",
+        "Low-carb snacks?",
+        "Managing food allergies?",
+        "What can I eat if I’m vegan?",
+        "Best foods for weight loss?",
+        "What should I avoid with lactose intolerance?",
+        "Healthy meal prep ideas?",
+        "How to read nutrition labels?"
+      ],
+      "responses": [
+        "Gluten-free? Think rice, quinoa, fruits, and check those labels!",
+        "Diabetes? Stick to low-glycemic foods and avoid sugary stuff. Balance is key.",
+        "For high cholesterol, load up on fruits, veggies, and whole grains while ditching bad fats.",
+        "Low-carb snacks? Go for nuts, cheese, and veggies. Just watch portions!",
+        "Food allergies? Always read labels and carry an EpiPen if needed. Stay safe!",
+        "If you’re vegan, think beans, lentils, tofu, and lots of veggies! Nutrient-dense is key.",
+        "For weight loss, focus on whole foods, veggies, lean proteins, and stay hydrated!",
+        "With lactose intolerance, avoid dairy or go for lactose-free options. Almond or oat milk works too.",
+        "Meal prep? Try batch cooking grains and roasting veggies for quick meals during the week.",
+        "Reading labels? Look for added sugars and serving sizes. The first ingredient matters!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Got a funny story?",
+        "Make me laugh!",
+        "Any funny med jokes?",
+        "What’s your best pun?",
+        "Do you have a dad joke?",
+        "Can you tell a health-related joke?",
+        "What's a silly health fact?",
+        "Give me a one-liner!",
+        "Tell me something random and funny!"
+      ],
+      "responses": [
+        "Why did the doctor carry a red pen? In case they needed to draw blood! 😂",
+        "What did the doctor say to the patient? 'Good news: you’re not a hypochondriac!'",
+        "Why don’t skeletons fight? They don’t have the guts!",
+        "What do you call a doctor who fixes websites? A ***doc***-tor! 😄",
+        "Why did the doctor always carry a pencil? To draw blood, of course! 🖊️",
+        "What’s a doctor’s favorite instrument? The stethoscope, of course!",
+        "How do you organize a space party? You planet! 🌌",
+        "What do you call a fake noodle? An impasta! 🍝",
+        "Did you hear about the claustrophobic astronaut? He just needed a little space!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field! 🌾"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "What to do in an emergency?",
+        "When to go to the ER?",
+        "How do I do CPR?",
+        "Signs of a stroke?",
+        "What if someone is choking?",
+        "How to handle a seizure?",
+        "What should I keep in my first aid kit?",
+        "How to recognize an allergic reaction?",
+        "What to do if someone faints?",
+        "When should I call 911?"
+      ],
+      "responses": [
+        "In an emergency, call your local emergency number! Don’t drive yourself.",
+        "Head to the ER for severe pain or breathing issues. Don’t wait on that!",
+        "For CPR, call for help, check if they’re responsive, and do chest compressions.",
+        "Stroke signs? Look for sudden numbness, confusion, or trouble speaking. Call for help fast!",
+        "If someone’s choking, encourage them to cough. If they can’t, do the Heimlich and call for help!",
+        "For seizures, ensure the person is safe and time the seizure. Don’t hold them down!",
+        "Your first aid kit should have band-aids, antiseptic, gauze, and scissors.",
+        "Signs of an allergic reaction include hives, swelling, or difficulty breathing. Call for help immediately.",
+        "If someone faints, lay them down and elevate their legs. Keep them comfortable.",
+        "Call 911 if someone is unresponsive, having chest pain, or severe bleeding."
+      ]
+    },
+    {
+      "tag": "wellness",
+      "patterns": [
+        "How to stay healthy?",
+        "What are some self-care tips?",
+        "How can I maintain a balanced life?",
+        "Tips for mental wellness?",
+        "How to create a morning routine?",
+        "Ways to relax after a long day?",
+        "Best practices for a healthy lifestyle?",
+        "How to find work-life balance?",
+        "What’s good for mental health?",
+        "Any suggestions for mindfulness?"
+      ],
+      "responses": [
+        "Stay active, eat well, and get enough sleep. Balance is key! 🌟",
+        "Self-care can be anything from reading to taking a bubble bath. Make time for yourself!",
+        "Maintain balance by prioritizing your tasks and making time for fun!",
+        "For mental wellness, practice gratitude, meditate, or chat with a friend.",
+        "Creating a morning routine can include stretching, a healthy breakfast, and planning your day.",
+        "To relax, try deep breathing, meditation, or listening to calming music after a long day.",
+        "Healthy lifestyle? Aim for whole foods, regular exercise, and good hydration.",
+        "Work-life balance means setting boundaries and knowing when to unplug.",
+        "Good for mental health? Get outside, move your body, and connect with others!",
+        "Mindfulness can be practiced through meditation, journaling, or mindful walking."
+      ]
+    },
+    {
+      "tag": "chronic_conditions",
+      "patterns": [
+        "What’s the best way to manage diabetes?",
+        "How do I cope with anxiety?",
+        "What should I know about hypertension?",
+        "Managing asthma effectively?",
+        "Tips for dealing with arthritis?",
+        "How to handle chronic pain?",
+        "Advice for migraine sufferers?",
+        "Coping with depression?",
+        "Best practices for managing allergies?",
+        "How to stay healthy with heart disease?"
+      ],
+      "responses": [
+        "For diabetes, monitor your blood sugar, eat a balanced diet, and exercise regularly.",
+        "Coping with anxiety? Consider therapy, mindfulness, or breathing exercises.",
+        "Hypertension management includes reducing salt intake, regular exercise, and monitoring your blood pressure.",
+        "For asthma, know your triggers, use your inhaler as prescribed, and avoid allergens.",
+        "Arthritis? Stay active, do gentle exercises, and consider physical therapy.",
+        "Chronic pain management can include medication, physical therapy, and stress management.",
+        "For migraines, keep a headache diary, stay hydrated, and avoid triggers.",
+        "Coping with depression? Reach out for support and talk to a healthcare professional.",
+        "Managing allergies involves avoiding triggers and taking medications as needed.",
+        "With heart disease, follow a heart-healthy diet, exercise regularly, and avoid smoking."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "What are superfoods?",
+        "How to get enough protein?",
+        "What’s the best diet for me?",
+        "Should I count calories?",
+        "Best snacks for energy?",
+        "How to reduce sugar intake?",
+        "What’s a balanced diet?",
+        "How to increase fiber in my diet?",
+        "What vitamins should I take?",
+        "Should I take supplements?"
+      ],
+      "responses": [
+        "Superfoods are nutrient-dense foods like berries, salmon, and leafy greens.",
+        "To get enough protein, include beans, nuts, lean meats, and dairy in your diet.",
+        "The best diet varies by individual, but aim for whole foods and balance!",
+        "Counting calories can be helpful for some, but focus on food quality too!",
+        "Best snacks? Try fruits, nuts, yogurt, or whole-grain crackers for sustained energy.",
+        "To reduce sugar intake, choose whole foods and read labels to avoid added sugars.",
+        "A balanced diet includes a variety of foods from all food groups—fruits, veggies, proteins, and grains.",
+        "Increase fiber by adding whole grains, fruits, veggies, and legumes to your meals.",
+        "Talk to your healthcare provider about vitamins to support your health needs.",
+        "Supplements can be beneficial, but it’s best to get nutrients from whole foods."
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "How can I sleep better?",
+        "What’s a good sleep routine?",
+        "How much sleep do I need?",
+        "What to do if I can’t fall asleep?",
+        "Are naps good for me?",
+        "How to avoid sleep disturbances?",
+        "What helps with insomnia?",
+        "Best sleeping positions?",
+        "How to create a sleep-friendly environment?",
+        "Should I use sleep aids?"
+      ],
+      "responses": [
+        "To sleep better, establish a consistent bedtime routine and limit screens before bed.",
+        "A good sleep routine includes winding down with calming activities, like reading or stretching.",
+        "Most adults need 7-9 hours of sleep per night for optimal health.",
+        "If you can’t fall asleep, try deep breathing or reading a book until you feel tired.",
+        "Naps can be beneficial, but limit them to 20-30 minutes to avoid disrupting nighttime sleep.",
+        "To avoid disturbances, keep your sleep environment dark, cool, and quiet.",
+        "For insomnia, try cognitive behavioral therapy or relaxation techniques.",
+        "Best positions vary, but side sleeping is generally considered healthy.",
+        "Make your bedroom comfortable with good bedding, low light, and a cool temperature.",
+        "Consult your doc before using sleep aids to ensure they’re right for you."
+      ]
+    }
+  ]
+}
